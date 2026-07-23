@@ -1,4 +1,4 @@
-# Finance Dashboard Demo – Microsoft Fabric
+Microsoft-Fabric-Finance-Analytics-Demo
 
 This repository demonstrates an **end-to-end finance dashboard workflow** using Microsoft Fabric:
 
