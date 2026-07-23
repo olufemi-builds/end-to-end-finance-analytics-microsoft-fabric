@@ -210,9 +210,16 @@ https://github.com/olufemi-builds
 
 Portfolio
 
-https://github.com/olufemi-builds
+https://olufemi-builds.github.io/olufemiolamoyegun.github.io/
 
 ---
+
+## Connect
+
+- Portfolio: https://olufemi-builds.github.io/olufemiolamoyegun.github.io/
+- GitHub: https://github.com/olufemi-builds
+- Medium: https://medium.com/@olamoyegun07
+- LinkedIn: https://www.linkedin.com/in/olufemi-olamoyegun/
 
 ## License
 
