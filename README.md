@@ -1,16 +1,16 @@
 # End-to-End Finance Analytics with Microsoft Fabric
 
-An end-to-end analytics project demonstrating how Microsoft Fabric can transform finance data into business insights using Lakehouse, Spark SQL, PySpark, and Power BI.
+An end-to-end analytics project demonstrating how Microsoft Fabric transforms finance data into business insights using Lakehouse, Spark SQL, PySpark, and Power BI.
 
-Rather than building a standalone dashboard, this project shows how Power BI fits into a complete analytics workflow within Microsoft Fabric.
+Rather than building a standalone dashboard, this project illustrates how Power BI fits into a complete analytics workflow within Microsoft Fabric.
 
 ---
 
 ## Overview
 
-This solution demonstrates a modern analytics architecture.
+This repository demonstrates a modern Microsoft Fabric analytics architecture.
 
-```
+```text
 Finance Data (CSV)
 
         │
@@ -48,13 +48,13 @@ This repository complements my Medium article:
 
 **Power BI at 11: Eleven Lessons That Changed Modern Analytics**
 
-where Lessons 7 and 8 discuss Microsoft's transition from standalone reporting to a unified analytics platform powered by Microsoft Fabric.
+The article explores how Power BI has evolved from a self-service reporting tool into an essential component of Microsoft's unified analytics platform. This repository provides a practical implementation of the Microsoft Fabric concepts discussed in Lessons 7 and 8.
 
 ---
 
 ## Repository Contents
 
-```
+```text
 end-to-end-finance-analytics-microsoft-fabric/
 
 ├── README.md
@@ -71,33 +71,30 @@ end-to-end-finance-analytics-microsoft-fabric/
 
 ## Sample Dataset
 
-Included datasets
+This repository includes sample finance datasets for learning Microsoft Fabric analytics.
 
 - Transaction.csv
 - Chart of Accounts.csv
 - date_dim.csv
 
-The datasets simulate financial transactions for learning Microsoft Fabric analytics.
+The datasets simulate a finance reporting environment suitable for analytics, reporting, and demonstration purposes.
 
 ---
 
 ## Analytics Workflow
 
-1. Import CSV files into Microsoft Fabric.
+1. Import finance datasets into Microsoft Fabric.
 2. Store data inside a Lakehouse.
-3. Query data using Spark SQL.
-4. Transform data with PySpark.
-5. Prepare reporting datasets.
-6. Build interactive Power BI reports.
-7. Share insights through Microsoft Fabric.
+3. Explore how finance datasets can be processed using Spark SQL and PySpark within Microsoft Fabric.
+4. Prepare reporting-ready datasets.
+5. Build interactive Power BI reports.
+6. Publish and share insights through Microsoft Fabric.
 
 ---
 
-## SQL Example
+## Example Spark SQL Query
 
-The project demonstrates Spark SQL queries including joins and aggregations.
-
-Example:
+The project demonstrates the type of Spark SQL queries commonly used for financial analysis.
 
 ```sql
 SELECT
@@ -132,14 +129,14 @@ ORDER BY TotalProfit DESC;
 
 ## What You'll Learn
 
-This project demonstrates how to
+This project demonstrates how to:
 
 - Build an end-to-end analytics solution
-- Load finance datasets into Microsoft Fabric
-- Work with Lakehouse architecture
-- Query data using Spark SQL
-- Transform data using PySpark
-- Prepare reporting datasets
+- Organize finance data within Microsoft Fabric
+- Understand Lakehouse architecture
+- Explore Spark SQL for analytics
+- Understand PySpark data transformations
+- Prepare reporting-ready datasets
 - Build Power BI reports
 - Understand how Power BI integrates with Microsoft Fabric
 
@@ -147,37 +144,51 @@ This project demonstrates how to
 
 ## Repository Screenshots
 
-Included screenshots
+The repository includes example screenshots showing:
 
-- List Tables.png
 - Account Name.png
 - Chart.png
 - Profit.png
+- List Tables.png
 
-These screenshots illustrate
+These screenshots illustrate:
 
 - Lakehouse tables
-- Spark SQL queries
-- PySpark analysis
-- Financial reporting
+- Financial reporting visuals
+- Data exploration
+- Analytics outputs
+
+---
+
+## Why This Project
+
+Power BI has evolved beyond standalone reporting. Today it serves as the analytics layer within Microsoft Fabric, connecting data ingestion, engineering, semantic modeling, and business intelligence.
+
+This repository demonstrates that end-to-end approach using a finance analytics scenario and complements the concepts discussed in the accompanying Medium article.
 
 ---
 
 ## Related Article
 
-Power BI at 11: Eleven Lessons That Changed Modern Analytics
+This repository accompanies my Medium article celebrating Power BI's 11th anniversary.
 
-This repository provides a practical implementation of the Microsoft Fabric concepts discussed in Lessons 7 and 8, demonstrating how Power BI works as part of a unified analytics platform.
+**Power BI at 11: Eleven Lessons That Changed Modern Analytics**
+
+Read the article:
+
+https://medium.com/@olamoyegun07/power-bi-at-11-eleven-lessons-that-changed-modern-analytics-30fcd4581428
+
+The article reflects on eleven years of Power BI's evolution, while this repository demonstrates the Microsoft Fabric architecture discussed in Lessons 7 and 8.
 
 ---
 
 ## Future Enhancements
 
-Planned additions
+Planned additions include:
 
 - OneLake Shortcuts
-- Direct Lake Semantic Model
-- Fabric Data Factory Pipeline
+- Direct Lake Semantic Models
+- Fabric Data Factory Pipelines
 - Dataflows Gen2
 - Real-Time Intelligence
 - Copilot integration
@@ -199,14 +210,10 @@ https://github.com/olufemi-builds
 
 Portfolio
 
-https://olufemiolamoyegun.github.io
+https://olufemi-builds.github.io/olufemiolamoyegun.github.io/
 
 ---
 
 ## License
 
-MIT License
-## License
-
 This project is licensed under the [MIT License](LICENSE).
-
